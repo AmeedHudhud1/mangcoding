@@ -284,3 +284,29 @@ footer .icons svg {
   gap: 10px;
   flex-wrap: wrap;
 }
+
+
+@media screen and (max-width:450px) {
+  
+  .course{
+    width: 100%;
+  }
+  .course-iteam{
+    width: 100%;
+    flex-direction: column;
+
+  }
+  .course-card img{
+    width: 100%;
+  }
+  .testimonal, .course-description{
+    width: 100%;
+  }
+  header .row{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer-iteam{
+    width: calc((100% ) / 4);
+  }
+}
